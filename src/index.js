@@ -1,13 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'alertifyjs/build/css/alertify.min.css'
+import 'alertifyjs/build/css/themes/default.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {createStore, compose, applyMiddleware} from 'redux'
+import {Provider} from 'react-redux'
+import doujinReducer from './Reducers/doujinReducer'
+import { logActions } from './Middlewares';
+
+const composedEnhacers = compose(
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
+  applyMiddleware(logActions)
+)
+
+const store = createStore(doujinReducer, composedEnhacers)
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={store}>
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
+  </Provider>,
   document.getElementById('root')
 );
 
