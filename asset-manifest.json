@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-app-hobbie/static/css/main.68e5aaa0.chunk.css",
-    "main.js": "/react-app-hobbie/static/js/main.47f1299e.chunk.js",
-    "main.js.map": "/react-app-hobbie/static/js/main.47f1299e.chunk.js.map",
+    "main.js": "/react-app-hobbie/static/js/main.f7bf61ea.chunk.js",
+    "main.js.map": "/react-app-hobbie/static/js/main.f7bf61ea.chunk.js.map",
     "runtime-main.js": "/react-app-hobbie/static/js/runtime-main.a5ee3ecc.js",
     "runtime-main.js.map": "/react-app-hobbie/static/js/runtime-main.a5ee3ecc.js.map",
     "static/css/2.f12de79c.chunk.css": "/react-app-hobbie/static/css/2.f12de79c.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.f12de79c.chunk.css",
     "static/js/2.3228a11c.chunk.js",
     "static/css/main.68e5aaa0.chunk.css",
-    "static/js/main.47f1299e.chunk.js"
+    "static/js/main.f7bf61ea.chunk.js"
   ]
 }
