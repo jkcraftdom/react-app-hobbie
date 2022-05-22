@@ -7,6 +7,7 @@ import laravel from '../../Servicios/laravel';
 import axios from 'axios';
 import {setDoujin} from '../../Actions'
 import {connect} from 'react-redux'
+import Modal from '../Molecules/Global/ModalBootstrap'
 
 
 const mapStateToProps = state => ({

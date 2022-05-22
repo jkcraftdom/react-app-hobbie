@@ -5,6 +5,7 @@ import axios from 'axios';
 import HeaderPageChildren from '../../Molecules/Global/HeaderPageChildren'
 import HnChapters from '../../Orgnisms/Hentai/HnChapters';
 import HnChapterAdd from '../../Orgnisms/Hentai/HnChapterAdd';
+import Modal from '../../Molecules/Global/ModalBootstrap'
 
 class HnCreatePage extends Component {
 
